@@ -1,5 +1,13 @@
 # Estudo de NodeJS
 
+## Comandos
+<ul>
+  <li> Clonar os arquivos do projeto: "git clone https://github.com/victorhugomorais/curso-NodeJs-MySql" no diretório que desejas que fiquem os arquivos
+    <li> Instalar as dependências: "npm install" no diretório "node+mysql"
+      <li>Rodar o projeto: "node index.js" ou "nodemon index.js"
+        <li> Acesso local via navegador(chrome, mozila, edge, ie): "localhost:8082"
+
+
 ## Curso utilizado
 Curso do "Victor Lima - Guia do Programador" no Youtube (https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B&index=2&ab_channel=VictorLima-GuiadoProgramador)
 
