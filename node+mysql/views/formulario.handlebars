@@ -1,0 +1,19 @@
+<form action="/add" method="post">
+{{!-- quando usamos o method="get", ele retorna na url os dados que colocamos no formulário, logo, qnd lidamos com senhas por exemplo, este method não é bom. melhor é o post. 
+
+e dentro de "action" colocamos a rota que o formulário enviará os registros, que no caso é /add que criamos no app.js
+
+e como estamos usando o method "post", nosso app.get que nos leva para a rota /add, deve ser na verdade: um "get.post", pois apenas assim irá funcionar. 
+
+só conseguimos acessar rotas do tipo get, o tipo post é mais seguro e não permite que acessemos aquela rota via url--}}
+<p> Titulo: </p>
+<input type="text" name = "titulo">
+
+<p>Conteúdo</p>
+<textarea name="conteudo" id="" cols="30" rows="10">
+
+</textarea>
+
+<button type="submit"> Cadastrar postagem </button>
+
+</form>
