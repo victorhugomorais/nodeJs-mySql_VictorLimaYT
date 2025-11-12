@@ -27,7 +27,7 @@ const Post = require('./models/Post')
         //como estou me conectando com Posts, apaguei o codigo abaixo
         //conexao com banco de dados
             // const Sequelize = require('sequelize')
-            // const sequelize = new Sequelize('teste', 'root', 'Pipoca006.', {
+            // const sequelize = new Sequelize('teste', 'root', 'SenhaBanco', {
             //     host: "localhost",
             //     dialect: 'mysql'
             // })
